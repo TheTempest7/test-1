@@ -1,5 +1,6 @@
 .wrapper {
   padding: 10px;
+  flex: 0 0 30%;
   display: flex;
   flex-direction: column;
   min-height: 200px;
@@ -21,5 +22,17 @@
   li {
     margin-left: 50px;
     list-style: disc;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .wrapper {
+    flex: 1 1 40%;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .wrapper {
+    flex: 1 0 100%;
   }
 }

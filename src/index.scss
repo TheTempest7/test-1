@@ -79,3 +79,10 @@ h6 {
   font-weight: 400;
   font-size: inherit;
 }
+
+
+@media screen and (max-width: 425px){
+ body {
+   overflow-y: scroll;
+ }
+}

@@ -1,5 +1,17 @@
 .wrapper {
   gap: 30px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 767px){
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
 }

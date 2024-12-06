@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  min-height: 200px;
+  border: 1px solid black;
+  h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  p{
+    flex: 1 1 auto;
+  }
+}
+
+.options {
+  margin-bottom: 15px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  li {
+    margin-left: 50px;
+    list-style: disc;
+  }
+}
